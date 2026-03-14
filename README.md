@@ -1,35 +1,20 @@
-# BrowserStack Web Scraping Assignment
+# ElPais Selenium Automation Assignment
 
-This project is a Selenium based Java program that scrapes articles from the EL PAÍS Opinion section.
+This project automates scraping of opinion articles from El País.
 
-## Features
-
-- Opens EL PAÍS Opinion page
-- Extracts first 5 articles
+Features
+- Scrapes first 5 opinion articles
 - Translates Spanish titles to English
-- Extracts first paragraphs from each article
+- Extracts first 3 paragraphs of each article
 - Downloads article images
 - Finds repeated words in translated titles
+- Runs cross-browser tests using BrowserStack (5 parallel threads)
 
-## Technologies Used
-
+Technologies
 - Java
 - Selenium WebDriver
+- BrowserStack Automate
 - Maven
 
-## How to Run
-
-1. Clone the repository
-2. Open the project in IntelliJ IDEA
-3. Run Main.java
-
-## Output
-
-The program prints:
-
-- Original Spanish title
-- English translated title
-- Article content
-- Image URL
-- Downloaded images
-- Repeated word analysis
+BrowserStack Build
+https://automate.browserstack.com/projects/Default+Project/builds/ElPais+Assignment/1
